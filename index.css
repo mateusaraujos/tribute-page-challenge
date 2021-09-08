@@ -100,6 +100,9 @@ h2 {
     #tribute-info {
         width: 90%;
     }
+    .min {
+        font-size: 1rem;
+    }
 }
 
 #tribute-info ul {
