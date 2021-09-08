@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
+
     <link rel="icon" href="logo48.png">
+
+    <link rel="stylesheet" href="index.css" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="description" content="Página de homenagem à J. K. Rowling">
+
     <title>J. K. Rowling</title>
+
 </head>
+
 <body>
+
     <main id="main">
 
         <!-- Início da página -->
         <h1 id="title">J. K. Rowling</h1>
-        <p>Escritora, roteirista e produtora cinematográfica britânica, notória por escrever a série de livros Harry Potter</p>
+        <p id="heads">Escritora, roteirista e produtora cinematográfica britânica, notória por escrever a série de livros Harry Potter</p>
 
         <!-- Imagem principal -->
         <figure id="img-div">
             <img id="image" src="jkrowling-img.jpg" alt="J. K. Rowling sorrindo, com o livro Harry Potter e as Relíquias da Morte nas mãos." />
             <figcaption id="img-caption">
-                <p>J. K. Rowling com o livro Harry Potter e as Relíquias da Morte em mãos.</p>
-                <p>Fonte: <a href="https://www.hypeness.com.br/2019/08/j-k-rowling-deixa-de-ser-bilionaria-o-motivo-as-enormes-doacoes-a-caridade/" target="_blank">hypeness.com.br</a></p>
+                <p class="min">J. K. Rowling com o livro Harry Potter e as Relíquias da Morte em mãos.</p>
+                <p class="min">Fonte: <a href="https://www.hypeness.com.br/2019/08/j-k-rowling-deixa-de-ser-bilionaria-o-motivo-as-enormes-doacoes-a-caridade/" target="_blank">hypeness.com.br</a></p>
             </figcaption>
         </figure>
 
         <!-- Seção com o conteúdo principal -->
         <section id="tribute-info">
             <h2 id="headline">Carreira de J. K. Rowling:</h2>
+            <p class="max">Livros</p>
             <ul>
-                <p>Livros</p>
                 <li><strong><time datetime="1995">1995</time></strong> - Joanne Rowling terminou seu manuscrito de Harry Potter e a Pedra Filosofal em uma velha máquina de escrever.</li>
                 <li><strong><time datetime="1996">1996</time></strong> - Ela recebeu sinal verde do editor Barry Cunninghan da Bloomsburry, uma editora de Londres.</li>
                 <li><strong><time datetime="1997-06">1997</time></strong> - A Bloomsburry publicou A Pedra Filosofal com uma impressão inicial de mil cópias, sendo que, quinhentas delas foram distribuídas em bibliotecas.</li>
@@ -38,7 +50,9 @@
                 <li><strong><time datetime="2003">2003</time></strong> - O lançamento de Harry Potter e a Ordem da Fênix. O intervalo de tempo para o lançamento levou a imprensa a especular que Rowling havia desenvolvido bloqueio criativo, rumores que ela negou.</li>
                 <li><strong><time datetime="2005-07">2005</time></strong> - O sexto livro, Harry Potter e o Enigma do Príncipe foi lançado. Em <time datetime="2006">2006</time> recebeu o prêmio de Livro do Ano British Book Awards.</li>
                 <li><strong><time datetime="2007">2007</time></strong> - Foi relatado que Rowling escreveu em um busto de Hermes, em seu quarto no Hotel Balmoral, que havia terminado o sétimo livro naquele cômodo em <time datetime="2007-01-11"> 11 de janeiro de 2007</time>. Harry Potter e as Relíquias da Morte foi lançado no dia <time datetime="2007-07-21">21 de julho de 2007</time>, e quebrou os recordes de todos os seus antecessores como o livro mais vendido de todos os tempos.</li>
-                <p>Filmes</p>
+            </ul>
+            <p class="max">Filmes</p>
+            <ul>
                 <li><strong><time datetime="1998-10">1998</time></strong> - A Warner Bros comprou os direitos para os filmes dos dois primeiros livros, por uma quantia de sete dígitos.</li>
                 <li><strong><time datetime="2001-11-16">2001</time></strong> - A adaptação de Harry Potter e a Pedra Filosofal foi lançada.</li>
                 <li><strong><time datetime="2002-11-15">2002</time></strong> - A adaptação de Harry Potter e Câmera Secreta foi lançada. Ambos os filmes foram dirigidos por Chris Columbos. </li>
@@ -56,6 +70,7 @@
                 <cite>-- J. K. Rowling</cite>
             </blockquote>
 
+            <!-- Link para outra página com mais informações -->
             <h3>
                 Se você tiver tempo, você deveria <a id="tribute-link" target="_blank" href="https://pt.wikipedia.org/wiki/J._K._Rowling#Nome">ler mais sobre essa incrível escritora</a>.
             </h3>
@@ -66,5 +81,7 @@
 
     <!-- CDN da freeCodeCamp para executar os testes -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </body>
+
 </html>
