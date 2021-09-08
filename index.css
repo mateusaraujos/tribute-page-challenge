@@ -61,6 +61,15 @@ body {
 
 .min {
     margin-top: 5px;
+    color: white;
+}
+
+#fonte {
+    color: white;
+}
+
+#fonte:visited {
+    color:hsla(200,0%,0%,.6);
 }
 
 h2 {
@@ -115,6 +124,14 @@ h3 {
         font-size: 1.7rem;
         text-align: justify;
     }
+}
+
+#tribute-link {
+    color: black;
+}
+
+#tribute-link:visited {
+    color: hsla(200,0%,0%,.6);
 }
 
 blockquote {
