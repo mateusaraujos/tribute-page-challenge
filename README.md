@@ -32,4 +32,8 @@ O objetivo desse desafio é fazer uma página da web em homenagem a alguém de m
 
 A **freeCodeCamp** disponibilizou, no desafio, o link da CDN deles, para executar os testes de especificações em qualquer ambiente.
 
+#### [Como eu fiz o desafio](https://codepen.io/mateus_silva/full/LYLxbYZ)
+
+A minha solução está no site da [codepen.io](https://codepen.io/mateus_silva/full/LYLxbYZ).
+
 ---
